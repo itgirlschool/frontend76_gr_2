@@ -1,0 +1,53 @@
+/* Общие стили для всей страницы и для общих элементов - начало*/
+@font-face {
+    src: url(assets\fonts\FredokaOne-Regular.ttf);
+    font-family: 'Fredoka';
+    font-weight: 400;
+}
+
+body {
+    font-family:'Roboto', sans-serif;
+    color: black;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.button_1,
+.button_2 {
+    width: 165px;
+    height: 49px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 5px;
+    background: #D23166;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    color: #FAFAFA;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.button_1 {
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 700;
+/*line-height: normal; - здесь нужо менять или оставить? */
+}
+
+.button_2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+/*line-height: normal; - здесь нужо менять или оставить? */
+}
+
+
+.button_1:hover,
+.button_2:hover {
+    background: #8f2146;
+}
+/* Общие стили для всей страницы и для общих элементов - конец*/

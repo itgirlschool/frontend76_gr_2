@@ -1,12 +1,18 @@
 /* Общие стили для всей страницы и для общих элементов - начало*/
+@import url(https://db.onlinewebfonts.com/c/5165c0facbfede7afe6c9ef3fd635f11?family=Fredoka+One);
+
 @font-face {
-    src: url(assets\fonts\FredokaOne-Regular.ttf);
-    font-family: 'Fredoka';
-    font-weight: 400;
-}
+        font-family: "Fredoka One";
+        src: url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.eot");
+        src: url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.svg#Fredoka One")format("svg");
+    }
 
 body {
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: black;
     max-width: 100vw;
     padding: 0 calc((100vw - 1600px)/2);
@@ -91,13 +97,20 @@ body {
     color: #150101;
     font-size: 14px;
     font-weight: 400;
-    line-height: normal;
+    line-height: 16px;
     text-decoration: none;
     cursor: pointer;
+    opacity: 0.6;
 }
 
 .menu_list_item a:hover {
-    border-bottom: 2px solid #150101;
+    color: #D23166;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 1;
+    outline-style: none;
 }
 
 .header .button_1 {
@@ -122,10 +135,11 @@ body {
 .main-content_info_tagline {
     display: inline-block;
     color: #0F0101;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
-    line-height: normal;
     letter-spacing: 1.4px;
+    line-height: 16px;
+    font-style: normal;
 }
 
 .main-content_info_title {
@@ -133,20 +147,24 @@ body {
     font-family: 'Fredoka One', sans-serif;
     font-size: 57.33px;
     font-weight: 400;
+    font-style: normal;
     line-height: 120.5%;
-    letter-spacing: 3.6px;
-    text-transform: uppercase;
     margin-bottom: 35px;
     opacity: 0.9;
+}
+
+.main-content_info_title_ice-cream {
+    color: #D23166;
 }
 
 .main-content_info_text {
     max-width: 523px;
     color: #0F0101;
-    font-family: Hind Madurai;
+    font-family: 'Hind Madurai', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 150%;
+    opacity: 0.6;
     margin-bottom: 50px;
 }
 

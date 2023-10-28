@@ -8,6 +8,8 @@
 body {
     font-family:'Roboto', sans-serif;
     color: black;
+    max-width: 100vw;
+    padding: 0 calc((100vw - 1600px)/2);
 }
 
 .container {
@@ -45,18 +47,19 @@ body {
 /*line-height: normal; - здесь нужо менять или оставить? */
 }
 
-
 .button_1:hover,
 .button_2:hover {
     background: #8f2146;
 }
 /* Общие стили для всей страницы и для общих элементов - конец*/
 
+
 /*Стили Альмиры*/
 .main {
     width: 1600px;
     height: 862px;
     background-color: #FBF0F4;
+    background-clip: border-box;
     flex-shrink: 0; /*Попробовать тут overflow: hidden;*/
 }
 

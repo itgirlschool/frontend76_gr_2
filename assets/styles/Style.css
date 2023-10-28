@@ -20,7 +20,7 @@ body {
 
 .container {
     max-width: 1600px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .button_1,
@@ -203,12 +203,57 @@ body {
     top: 126px;
     z-index: 1;
 }
-
 /* Конец зоны ответственности Альмиры */
 
 
 /* Начало зоны ответственности Надежды */
+.delivery {
+    padding-top: 100px;
+    padding-bottom: 100.2px;
+}
 
+.delivery_info {
+    display: grid;
+    gap: 39px;
+    grid-template-columns: repeat(4, 250px);
+    justify-content: center;
+}
+
+.delivery_info_image {
+    margin-top: 33px;
+}
+
+#delivery_info_image_last {
+    margin-top: 27px;
+}
+
+.delivery_info_item {
+    text-align: center;
+}
+
+.delivery_info_title {
+    color: #000;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 24.65px 0 9px 0;
+}
+
+#delivery_info_title_last {
+    margin: 18px 0 9px 0;
+}
+
+.delivery_info_text {
+    text-align: center;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6;
+}
 /* Конец зоны ответственности Надежды */
 
 

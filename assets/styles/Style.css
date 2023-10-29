@@ -51,15 +51,11 @@ body {
 .button_1 {
   font-family: "Hind Madurai", sans-serif;
   font-weight: 700;
-  /*line-height: normal; - здесь нужо менять или оставить? */
-  /* Виталия: я бы не задавала это свойство, так как в Фигме оно авто */
 }
 
 .button_2 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  /*line-height: normal; - здесь нужо менять или оставить? */
-  /* Виталия: я бы не задавала это свойство, так как в Фигме оно авто */
 }
 
 .button_1:hover,
@@ -78,8 +74,7 @@ body {
 .main {
   width: 1600px;
   height: 862px;
-
-  flex-shrink: 0; /*Попробовать тут overflow: hidden;*/
+  flex-shrink: 0;
 }
 
 .header {

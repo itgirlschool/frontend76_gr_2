@@ -276,7 +276,27 @@ body {
 /* Конец зоны ответственности Диляры */
 
 /* Начало зоны ответственности Ольги */
+.question__content{
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 51.56px;
+}
 
+.question__form{
+  display: flex;
+  justify-content: center;
+}
+
+.question__input{
+  font-size: 14px;
+  color: rgba(15, 0, 0, 1);
+}
+
+.submit__btn{
+  color: rgba(250, 250, 250, 1);
+  background-color: rgba(214, 67, 116, 1);
+}
 /* Конец зоны ответственности Ольги */
 
 /* Начало зоны ответственности Виталии - стили для футера */

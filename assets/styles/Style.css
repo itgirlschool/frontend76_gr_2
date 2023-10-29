@@ -2,276 +2,279 @@
 @import url(https://db.onlinewebfonts.com/c/5165c0facbfede7afe6c9ef3fd635f11?family=Fredoka+One);
 
 @font-face {
-        font-family: "Fredoka One";
-        src: url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.eot");
-        src: url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.eot?#iefix")format("embedded-opentype"),
-        url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.woff2")format("woff2"),
-        url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.woff")format("woff"),
-        url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.ttf")format("truetype"),
-        url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.svg#Fredoka One")format("svg");
-    }
+  font-family: "Fredoka One";
+  src: url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.eot");
+  src: url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.svg#Fredoka One")
+      format("svg");
+}
 
 body {
-    font-family: 'Roboto', sans-serif;
-    color: black;
-    max-width: 100vw;
-    padding: 0 calc((100vw - 1600px)/2);
+  font-family: "Roboto", sans-serif;
+  color: black;
+  max-width: 100vw;
+  padding: 0 calc((100vw - 1600px) / 2);
 }
 
 .container {
-    max-width: 1600px;
-    margin: 0;
+  max-width: 1600px;
+  margin: 0;
 }
 
 .button_1,
 .button_2 {
-    width: 165px;
-    height: 49px;
-    box-sizing: border-box;
-    border: 0;
-    border-radius: 5px;
-    background: #D23166;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    outline: none;
-    color: #FAFAFA;
-    font-size: 16px;
-    font-style: normal;
+  width: 165px;
+  height: 49px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 5px;
+  background: #d23166;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  color: #fafafa;
+  font-size: 16px;
+  font-style: normal;
 }
 
 .button_1 {
-    font-family: 'Hind Madurai', sans-serif;
-    font-weight: 700;
-/*line-height: normal; - здесь нужо менять или оставить? */
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 700;
+  /*line-height: normal; - здесь нужо менять или оставить? */
 }
 
 .button_2 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-/*line-height: normal; - здесь нужо менять или оставить? */
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  /*line-height: normal; - здесь нужо менять или оставить? */
 }
 
 .button_1:hover,
 .button_2:hover {
-    background: #8f2146;
+  background: #8f2146;
 }
 /* Общие стили для всей страницы и для общих элементов - конец*/
 
 /* Начало зоны ответственности Альмиры */
 .wrapper {
-    max-width: 100vw;
-    background-color: #FBF0F4;
-    background-clip: border-box;
+  max-width: 100vw;
+  background-color: #fbf0f4;
+  background-clip: border-box;
 }
 
 .main {
-    width: 1600px;
-    height: 862px;
+  width: 1600px;
+  height: 862px;
 
-
-    flex-shrink: 0; /*Попробовать тут overflow: hidden;*/
+  flex-shrink: 0; /*Попробовать тут overflow: hidden;*/
 }
 
 .header {
-    height: 79px;
-    max-width: 1125px;
-    margin: 0 230px 0 245px;
+  height: 79px;
+  max-width: 1125px;
+  margin: 0 230px 0 245px;
 }
 
 .header .container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .menu {
-    margin-left: 266px;
+  margin-left: 266px;
 }
 
 .menu_list {
-    list-style: none;
-    display: flex;
-    padding-inline-start: 0;
+  list-style: none;
+  display: flex;
+  padding-inline-start: 0;
 }
 
 .menu_list_item {
-    margin-right: 40px;
+  margin-right: 40px;
 }
 
 .menu_list_item a {
-    color: #150101;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 16px;
-    text-decoration: none;
-    cursor: pointer;
-    opacity: 0.6;
+  color: #150101;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.6;
 }
 
 .menu_list_item a:hover {
-    color: #D23166;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    opacity: 1;
-    outline-style: none;
+  color: #d23166;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  opacity: 1;
+  outline-style: none;
 }
 
 .header .button_1 {
-    cursor: pointer;
-    margin-left: auto;
+  cursor: pointer;
+  margin-left: auto;
 }
 
 .main-content {
-    padding-top: 196px;
-    padding-bottom: 213px;
-    margin-left: 254px;
+  padding-top: 196px;
+  padding-bottom: 213px;
+  margin-left: 254px;
 }
 
 .main-content .container {
-    position: relative;
+  position: relative;
 }
 
 .main-content_info {
-    max-width: 665px;
+  max-width: 665px;
 }
 
 .main-content_info_tagline {
-    display: inline-block;
-    color: #0F0101;
-    font-size: 15px;
-    font-weight: 500;
-    letter-spacing: 1.4px;
-    line-height: 16px;
-    font-style: normal;
-    margin-bottom: 6px;
+  display: inline-block;
+  color: #0f0101;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1.4px;
+  line-height: 16px;
+  font-style: normal;
+  margin-bottom: 6px;
 }
 
 .main-content_info_title {
-    color: #0F0101;
-    font-family: 'Fredoka One', sans-serif;
-    font-size: 57.33px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 120.5%;
-    margin: 0 0 35px 0;
-    opacity: 0.9;
+  color: #0f0101;
+  font-family: "Fredoka One", sans-serif;
+  font-size: 57.33px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 120.5%;
+  margin: 0 0 35px 0;
+  opacity: 0.9;
 }
 
 .main-content_info_title_ice-cream {
-    color: #D23166;
+  color: #d23166;
 }
 
 .main-content_info_text {
-    max-width: 523px;
-    color: #0F0101;
-    font-family: 'Hind Madurai', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 150%;
-    opacity: 0.6;
-    margin-bottom: 50px;
+  max-width: 523px;
+  color: #0f0101;
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 150%;
+  opacity: 0.6;
+  margin-bottom: 50px;
 }
 
 .main-content_image_ice-cream {
-    position: absolute;
-    top: -159px;
-    left: 635px;
-    z-index: 2;
+  position: absolute;
+  top: -159px;
+  left: 635px;
+  z-index: 2;
 }
 
 .main-content_image_splash {
-    transform: rotate(4.793deg);
-    flex-shrink: 0;
-    position: absolute;
-    top: -34px;
-    left: 486px;
-    z-index: 3;
+  transform: rotate(4.793deg);
+  flex-shrink: 0;
+  position: absolute;
+  top: -34px;
+  left: 486px;
+  z-index: 3;
 }
 
 .oval {
-    width: 365px;
-    height: 353px;
-	background: #D23166;
-	border-radius: 365px;
-    opacity: 0.1;
-    position: absolute;
-    left: 751px;
-    top: 126px;
-    z-index: 1;
+  width: 365px;
+  height: 353px;
+  background: #d23166;
+  border-radius: 365px;
+  opacity: 0.1;
+  position: absolute;
+  left: 751px;
+  top: 126px;
+  z-index: 1;
 }
 /* Конец зоны ответственности Альмиры */
 
-
 /* Начало зоны ответственности Надежды */
 .delivery {
-    padding-top: 100px;
-    padding-bottom: 100.2px;
+  padding-top: 100px;
+  padding-bottom: 100.2px;
 }
 
 .delivery_info {
-    display: grid;
-    gap: 39px;
-    grid-template-columns: repeat(4, 250px);
-    justify-content: center;
+  display: grid;
+  gap: 39px;
+  grid-template-columns: repeat(4, 250px);
+  justify-content: center;
 }
 
 .delivery_info_image {
-    margin-top: 33px;
+  margin-top: 33px;
 }
 
 #delivery_info_image_last {
-    margin-top: 27px;
+  margin-top: 27px;
 }
 
 .delivery_info_item {
-    text-align: center;
+  text-align: center;
 }
 
 .delivery_info_title {
-    color: #000;
-    font-family: 'Hind Madurai', sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    margin: 24.65px 0 9px 0;
+  color: #000;
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 24.65px 0 9px 0;
 }
 
 #delivery_info_title_last {
-    margin: 18px 0 9px 0;
+  margin: 18px 0 9px 0;
 }
 
 .delivery_info_text {
-    text-align: center;
-    font-family: 'Hind Madurai', sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    opacity: 0.6;
+  text-align: center;
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.6;
 }
 /* Конец зоны ответственности Надежды */
 
+/* Начало зоны ответственности Виталии (возможно Валерии) - стили для раздела "Oatmeal" */
 
-/* Начало зоны ответственности Виталии */
-
-/* Конец зоны ответственности Виталии */
-
+/* Конец зоны ответственности Виталии (возможно Валерии) - стили для раздела "Oatmeal" */
 
 /* Начало зоны ответственности Нины */
 
 /* Конец зоны ответственности Нины */
 
-
 /* Начало зоны ответственности Диляры */
 
 /* Конец зоны ответственности Диляры */
 
-
 /* Начало зоны ответственности Ольги */
 
 /* Конец зоны ответственности Ольги */
+
+/* Начало зоны ответственности Виталии - стили для футера */
+
+/* Конец зоны ответственности Виталии - стили для футера */

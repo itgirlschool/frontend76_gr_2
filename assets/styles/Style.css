@@ -280,5 +280,37 @@ body {
 /* Конец зоны ответственности Ольги */
 
 /* Начало зоны ответственности Виталии - стили для футера */
+.footer {
+  background-color: #0a0808;
+  color: #fff;
+  font-size: 12px;
+}
+
+.footer__text_bold {
+  font-weight: bold;
+}
+
+.footer__wrapper {
+  max-width: 1100px;
+  display: flex;
+}
+
+.footer__link {
+  text-decoration: none;
+}
+
+.footer__link:visited {
+  color: #fff;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-icons__list,
+.pay-icons__list {
+  display: flex;
+}
 
 /* Конец зоны ответственности Виталии - стили для футера */

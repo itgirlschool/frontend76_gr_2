@@ -389,17 +389,20 @@ body {
   vertical-align: top;
   position: relative;
   box-sizing: border-box;
+  margin-bottom: 15px;
 }
 
 .footer__input {
   outline: none;
   border: 2px solid #d64374;
-  padding: 17px 0px 17px 30px;
+  padding: 19px 135px 17px 30px;
   display: block;
   width: 100%;
   background: #ffffff00;
   border-radius: 5px;
   box-sizing: border-box;
+  color: white;
+  font-size: 14px;
 }
 
 .footer__submit-button {
@@ -412,14 +415,38 @@ body {
   display: inline-block;
   background: #d23166;
   color: #fafafa;
-  padding: 10px 25px;
+  padding: 10px 0;
   border-radius: 5px;
   cursor: pointer;
   width: 125px;
-  height: 51.7px;
+  height: 54px;
   box-sizing: border-box;
-  font-size: 16px;
-  font-style: normal;
+  font-size: 20px;
+  font-style: 500;
+  text-align: center;
 }
 
+.footer__submit-button:hover {
+  background: #8f2146;
+}
+
+::-webkit-input-placeholder {
+  font-size: 14px;
+}
+::-moz-placeholder {
+  font-size: 14px;
+}
+:-ms-input-placeholder {
+  font-size: 14px;
+}
+:-moz-placeholder {
+  font-size: 14px;
+}
+
+.pay-icons__list {
+  margin: 0;
+  width: 130px;
+  height: 26px;
+  justify-content: space-between;
+}
 /* Конец зоны ответственности Виталии - стили для футера */

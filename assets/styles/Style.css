@@ -263,9 +263,22 @@ body {
 }
 /* Конец зоны ответственности Надежды */
 
-/* Начало зоны ответственности Виталии (возможно Валерии) - стили для раздела "Oatmeal" */
-
-/* Конец зоны ответственности Виталии (возможно Валерии) - стили для раздела "Oatmeal" */
+/* Начало зоны ответственности Виталии - стили для раздела "Oatmeal" */
+.outmeal__shadow {
+  width: 283px;
+  height: 27px;
+  background: radial-gradient(
+    ellipse at center,
+    #ff7cd8 0%,
+    #ff7cd8 0%,
+    #ff7cd8 0%,
+    #ff7cd8 0%,
+    #ff9ee1 0%,
+    #fba6e1 26%,
+    #fcecfc 99%
+  );
+}
+/* Конец зоны ответственности Виталии - стили для раздела "Oatmeal" */
 
 /* Начало зоны ответственности Нины */
 
@@ -276,24 +289,24 @@ body {
 /* Конец зоны ответственности Диляры */
 
 /* Начало зоны ответственности Ольги */
-.question__content{
+.question__content {
   text-align: center;
   font-size: 44px;
   font-weight: 500;
   line-height: 51.56px;
 }
 
-.question__form{
+.question__form {
   display: flex;
   justify-content: center;
 }
 
-.question__input{
+.question__input {
   font-size: 14px;
   color: rgba(15, 0, 0, 1);
 }
 
-.submit__btn{
+.submit__btn {
   color: rgba(250, 250, 250, 1);
   background-color: rgba(214, 67, 116, 1);
 }

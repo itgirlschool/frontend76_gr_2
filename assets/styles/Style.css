@@ -206,19 +206,23 @@ body {
   display: grid;
   gap: 39px;
   grid-template-columns: repeat(4, 250px);
+  grid-template-rows: 200px;
   justify-content: center;
 }
 
-.delivery_info_image {
-  margin-top: 33px;
+.delivery_info_item_wrapper {
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.03);
 }
 
-#delivery_info_image_last {
-  margin-top: 27px;
+#delivery_info_item_wrapper_last {
+    padding-top: 27px;
 }
 
-.delivery_info_item {
-  text-align: center;
+.delivery_info_item_wrapper {
+    padding: 33px 26px 27px 26px;
+    text-align: center;
 }
 
 .delivery_info_title {

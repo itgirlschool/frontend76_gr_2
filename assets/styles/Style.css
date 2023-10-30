@@ -214,6 +214,7 @@ body {
     border-radius: 7px;
     background-color: white;
     box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.03);
 }
 
 #delivery_info_item_wrapper_last {

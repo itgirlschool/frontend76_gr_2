@@ -458,6 +458,10 @@ body {
   color: #fff;
 }
 
+.footer-menu__link:hover {
+  color: #ffffff70;
+}
+
 .footer__list {
   list-style-type: none;
   padding: 0;

@@ -4,16 +4,11 @@
 @font-face {
   font-family: "Fredoka One";
   src: url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.eot");
-  src: url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.woff2")
-      format("woff2"),
-    url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.woff")
-      format("woff"),
-    url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.ttf")
-      format("truetype"),
-    url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.svg#Fredoka One")
-      format("svg");
+  src: url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.eot?#iefix") format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.woff2") format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.woff") format("woff"),
+    url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.ttf") format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.svg#Fredoka One") format("svg");
 }
 
 body {
@@ -217,8 +212,8 @@ body {
 }
 
 .delivery_info_item_wrapper:hover {
-    box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.03);
-    border: none;
+  box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.03);
+  border: none;
 }
 
 #delivery_info_item_wrapper_last {
@@ -400,6 +395,101 @@ body {
 /* Конец зоны ответственности Нины */
 
 /* Начало зоны ответственности Диляры */
+.container-order {
+  max-width: 1600px;
+  height: 639px;
+  background-color: #f8edf0;
+  flex-shrink: 0;
+}
+
+.order-info {
+  position: relative;
+  margin-left: 659px;
+  top: 90px;
+}
+
+.order-image {
+  position: absolute;
+  left: 220px;
+  margin-top: 59px;
+}
+
+.order-image img {
+  width: 305px;
+  height: 627px;
+}
+
+.order-info_title {
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-size: 44.2px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 90px;
+}
+
+.order-info_small-text {
+  color: #0f0101;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.18px;
+  opacity: 0.7;
+}
+
+.steps-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.how-to-order {
+  margin-top: 30px;
+  margin-bottom: 22px;
+}
+
+.steps {
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.icons-order {
+  border-radius: 3px;
+  background-color: white;
+  margin-right: 10px;
+}
+
+.item1 {
+  border-radius: 3px;
+}
+
+.item2 {
+  border-radius: 3px;
+}
+
+.item3 {
+  border-radius: 3px;
+}
+
+.download-items {
+  display: flex;
+}
+
+.download-items__item-one {
+  margin-left: -14px;
+}
 
 /* Конец зоны ответственности Диляры */
 

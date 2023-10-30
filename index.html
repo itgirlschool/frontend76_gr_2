@@ -34,10 +34,10 @@
 
   <body>
     <!-- Секция Альмиры -->
-    <div class="wrapper">
-      <section class="main">
-        <header class="header">
-          <div class="container">
+    <section class="main">
+      <header class="header">
+        <div class="container">
+          <div class="header-wrapper">
             <div class="logo">
               <img src="assets\images\shortcut_icon.png" alt="Logo" />
             </div>
@@ -62,46 +62,42 @@
             </nav>
             <button class="button_1">Buy Now</button>
           </div>
-        </header>
+        </div>
+      </header>
 
-        <section class="main-content">
-          <div class="container">
-            <div class="main-content_info">
-              <span class="main-content_info_tagline"
-                >Sweet fun, full of milk.</span
-              >
-              <h1 class="main-content_info_title">
-                Feel inside cold with our delicious
-                <span class="main-content_info_title_ice-cream"
-                  >ice-cream.</span
-                >
-              </h1>
-              <p class="main-content_info_text">
-                Some food has looked so awful that it's looked like something
-                that the dog's brought home, yet after one mouthful I've been
-                left eating my thoughts, my words.
-              </p>
-              <div class="main-content_info_action">
-                <button class="button_1">Buy Now</button>
-              </div>
-            </div>
-            <div class="main-content_image">
-              <img
-                class="main-content_image_ice-cream"
-                src="assets\images\hero_ice-cream.png"
-                alt="Big ice-cream"
-              />
-              <img
-                class="main-content_image_splash"
-                src="assets\images\hero_milk-splash.png"
-                alt="Milk splash"
-              />
-              <div class="oval"></div>
+      <section class="main-content">
+        <div class="container">
+          <div class="main-content_info">
+            <span class="main-content_info_tagline"
+              >Sweet fun, full of milk.</span
+            >
+            <h1 class="main-content_info_title">
+              Feel inside cold with our delicious
+              <span class="main-content_info_title_ice-cream">ice-cream.</span>
+            </h1>
+            <p class="main-content_info_text">
+              Some food has looked so awful that it's looked like something that
+              the dog's brought home, yet after one mouthful I've been left
+              eating my thoughts, my words.
+            </p>
+            <div class="main-content_info_action">
+              <button class="button_1">Buy Now</button>
             </div>
           </div>
-        </section>
+          <img
+            class="main-content_image_ice-cream"
+            src="assets\images\hero_ice-cream.png"
+            alt="Big ice-cream"
+          />
+          <img
+            class="main-content_image_splash"
+            src="assets\images\hero_milk-splash.png"
+            alt="Milk splash"
+          />
+          <div class="oval"></div>
+        </div>
       </section>
-    </div>
+    </section>
     <!-- Конец секции Альмиры -->
 
     <!-- Начало секции Нади (Альмиры) -->
@@ -186,9 +182,93 @@
     <!-- Конец секции Виталии -->
 
     <!-- Начало секции Нины -->
+
     <section class="products">
-      <h1>Our products</h1>
+      <div class="product__title">
+        <h1 class="product__titles">Our product</h1>
+      </div>
+      <div class="product__container">
+        <nav class="product__menu">
+          <ul class="product__menu__list">
+            <li class="product__menu__list__item"><a href="#">ICE CREAM</a></li>
+            <li class="product__menu__list__item">
+              <a href="#">CAYENNE CHOCOLATE</a>
+            </li>
+            <li class="product__menu__list__item">
+              <a href="#">CAKE BATTER</a>
+            </li>
+            <li class="product__menu__list__item"><a href="">CANDY CANE</a></li>
+            <li class="product__menu__list__item"><a href="#">PLATTERS</a></li>
+            <li class="product__menu__list__item"><a href="#">DESSERT</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="product__container_grid">
+        <div class="product__container-grid">
+          <img
+            src="./assets/images/products_brown_bread.png"
+            alt="Ice"
+            class="product_info_image"
+          />
+          <div class="product_container_grid">
+            <h2 class="product_info_title">Brown bread</h2>
+            <p class="product_info_text">
+              Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au
+              Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+              pioneer in the healthy fast food scene.
+            </p>
+            <div class="product_info_action">
+              <p class="product_info_action_text">
+                $19.55<span class="product_info_action_number">$22.55</span>
+              </p>
+              <button class="product_button">Buy Now</button>
+            </div>
+          </div>
+
+          <div class="product_container_grid">
+            <h2 class="product_info_title">Cayenne chocolate</h2>
+            <p class="product_info_text">
+              Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au
+              Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+              pioneer in the healthy fast food scene.
+            </p>
+            <div class="product_info_action">
+              <p class="product_info_action_text">
+                $19.55<span class="product_info_action_number">$22.55</span>
+              </p>
+              <button class="product_button">Buy Now</button>
+            </div>
+          </div>
+
+          <img
+            src="./assets/images/products_cayenne_chocolate.png"
+            alt="Ice"
+            class="products_info_image"
+          />
+          <img
+            src="./assets/images/products_sweet_corn.png"
+            alt="Ice"
+            class="products_info_image"
+          />
+
+          <div class="product_container_grid">
+            <h2 class="product_info_title">Sweet corn</h2>
+            <p class="product_info_text">
+              Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au
+              Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+              pioneer in the healthy fast food scene.
+            </p>
+            <div class="product_info_action">
+              <p class="product_info_action_text">
+                $19.55<span class="product_info_action_number">$22.55</span>
+              </p>
+              <button class="product_button">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+
     <!-- Конец секции Нины -->
 
     <!-- Начало секции Диляры -->

@@ -118,16 +118,12 @@ body {
 .main-content {
   padding-top: 196px;
   padding-bottom: 213px;
-}
 
-.main-content .container {
-  position: relative;
 }
 
 .main-content_info {
     max-width: 665px;
     margin-left: 254px;
-  
   }
 
 .main-content_info_tagline {
@@ -168,10 +164,14 @@ body {
   margin-bottom: 50px;
 }
 
+.main-content .container {
+    position: relative;
+}
+
 .main-content_image_ice-cream {
   position: absolute;
   top: -159px;
-  left: 635px;
+  left: 889px;
   z-index: 2;
 }
 
@@ -179,8 +179,8 @@ body {
   transform: rotate(4.793deg);
   flex-shrink: 0;
   position: absolute;
-  top: -34px;
-  left: 486px;
+  top: -30px;
+  left: 745px;
   z-index: 3;
 }
 
@@ -191,7 +191,7 @@ body {
   border-radius: 365px;
   opacity: 0.1;
   position: absolute;
-  left: 751px;
+  left: 1000px;
   top: 126px;
   z-index: 1;
 }

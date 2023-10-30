@@ -263,7 +263,105 @@ body {
 /* Конец зоны ответственности Виталии (возможно Валерии) - стили для раздела "Oatmeal" */
 
 /* Начало зоны ответственности Нины */
+.product__titles{
+  text-align: center;
+  color: #150101;
+  font-family: Hind Madurai;
+  font-size: 44.2px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
 
+.product__container{
+
+
+}
+.product__menu__list {
+  list-style: none;
+  display: flex;
+  padding-inline-start: 0;
+  justify-content: center;
+}
+
+.product__menu__list__item {
+  margin-right: 40px;
+}
+
+.product__menu__list__item a {
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.product__menu__list__item a:hover {
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  opacity: 1;
+  outline-style: none;
+  text-decoration: underline;
+}
+
+.product__container-grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 33% 33% 33%;
+  align-items: center;
+  justify-content: center;
+}
+
+.product_button{
+  width: 165px;
+  height: 49px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 5px;
+  background: #d23166;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  color: #fafafa;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.product_button:hover{
+  background: #8f2146;
+}
+.product_info_action_text{
+  color: #000;
+  text-align: right;
+  font-family: Hind Madurai;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+}
+
+.product_info_action_number{
+  color: #000;
+  font-family: Hind Madurai;
+  margin: 6px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line:line-through;
+  opacity: 0.7;
+}
 /* Конец зоны ответственности Нины */
 
 /* Начало зоны ответственности Диляры */

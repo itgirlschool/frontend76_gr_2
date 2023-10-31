@@ -98,7 +98,7 @@ body {
   text-decoration: none;
   cursor: pointer;
   opacity: 0.6;
-  transition: 1s;
+  transition: 1ms;
 }
 
 .menu_list_item a:hover {
@@ -692,7 +692,29 @@ body {
 /* Конец зоны ответственности Виталии - стили для футера */
 
 /* Медиа-запросы для маленьких экранов (Альмира) - начало */
+@media screen and (max-width: 1599px) {{}}
+
 @media screen and (min-width: 641px) and (max-width: 960px) {
+    /* Секцию с отзывами удалить */
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .main {
+        width: 100%;
+        margin: 0;
+    }
+
+      .header-wrapper {
+        max-width: 100%;
+        height: 90px;
+      }
+
+    .delivery_info_text {
+        display: none;
+    }
+
     .order {}
 
     .order-info_small-text,
@@ -705,18 +727,85 @@ body {
 }
 
 @media screen and (min-width: 321px) and (max-width: 640px) {
-    .question {
+    /* Секцию с отзывами удалить */
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+
+      .header-wrapper {
+        max-width: 100%;
+        height: 90px;
+      }
+    
+    .main-content_image_ice-cream,
+    .main-content_image_splash,
+    .oval {
         display: none;
     }
+
+    .delivery_info {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 20px 20px 20px 20px;
+        justify-content: flex-start;
+        align-content: center;
+    }
+
+    .delivery_info_item_wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-content: center;
+        padding: 5px;
+        margin: 0px;
+    }
+
+    .delivery_info_text {
+        display: none;
+    }
+        
+    .order {}
 
     .order-info_small-text,
     .how-to-order,
     .container-order > img {
         display: none;
     }
+
+    .question {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 320px) {
+    /* Секцию с отзывами удалить */
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .menu {
+        margin-left: 10%;
+      }
+
+      .header-wrapper {
+        max-width: 100%;
+        height: 90px;
+        display: flex;
+        align-items: center;
+      }
+
+    .main-content_image_ice-cream,
+    .main-content_image_splash,
+    .oval {
+        display: none;
+    }
+
+    .delivery_info_text {
+        display: none;
+    }
+        
     .order {
         display: none;
     }

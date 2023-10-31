@@ -692,10 +692,38 @@ body {
 /* Конец зоны ответственности Виталии - стили для футера */
 
 /* Медиа-запросы для маленьких экранов (Альмира) - начало */
-@media screen and (min-width: 641px) and (max-width: 960px) {}
+@media screen and (min-width: 641px) and (max-width: 960px) {
+    .order {}
 
-@media screen and (min-width: 321px) and (max-width: 640px) {}
+    .order-info_small-text,
+    .how-to-order,
+    .container-order > img {
+        display: none;
+    }
 
-@media screen and (max-width: 320px) {}
+    .question {}
+}
+
+@media screen and (min-width: 321px) and (max-width: 640px) {
+    .question {
+        display: none;
+    }
+
+    .order-info_small-text,
+    .how-to-order,
+    .container-order > img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .order {
+        display: none;
+    }
+
+    .question {
+        display: none;
+    }
+}
 
 /* Медиа-запросы для маленьких экранов (Альмира) - конец */

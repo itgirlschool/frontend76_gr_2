@@ -4,11 +4,16 @@
 @font-face {
   font-family: "Fredoka One";
   src: url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.eot");
-  src: url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.eot?#iefix") format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.woff2") format("woff2"),
-    url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.woff") format("woff"),
-    url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.ttf") format("truetype"),
-    url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.svg#Fredoka One") format("svg");
+  src: url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5165c0facbfede7afe6c9ef3fd635f11.svg#Fredoka One")
+      format("svg");
 }
 
 body {
@@ -103,11 +108,10 @@ body {
   line-height: normal;
   opacity: 1;
   outline-style: none;
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
-.header
-.button_1 {
+.header .button_1 {
   cursor: pointer;
   margin-left: auto;
 }
@@ -398,19 +402,19 @@ body {
 
 /* Начало зоны ответственности Диляры */
 .order {
-    max-width: 100%;
-    background-color: #f8edf0;
+  max-width: 100%;
+  background-color: #f8edf0;
 }
 
 .container-order {
-    position: relative;
-    height: 639px;
+  position: relative;
+  height: 639px;
 }
 
 .container-order > img {
-    position: absolute;
-    left: 220px;
-    top: 56px;
+  position: absolute;
+  left: 220px;
+  top: 56px;
 }
 
 .order-info {
@@ -482,8 +486,8 @@ body {
 }
 
 .download-items__item-one {
-    margin-left: -14px;
-    margin-right: 7px;
+  margin-left: -14px;
+  margin-right: 7px;
 }
 
 /* Конец зоны ответственности Диляры */
@@ -644,7 +648,7 @@ body {
 .footer__submit-button {
   position: absolute;
   top: 0;
-  left: 255px;
+  left: 67%;
   z-index: 9;
   outline: none;
   border: none;
@@ -655,7 +659,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
   width: 125px;
-  height: 54px;
+  height: 56px;
   box-sizing: border-box;
   font-size: 20px;
   font-style: 500;

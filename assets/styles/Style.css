@@ -690,3 +690,12 @@ body {
   justify-content: space-between;
 }
 /* Конец зоны ответственности Виталии - стили для футера */
+
+/* Медиа-запросы для маленьких экранов (Альмира) - начало */
+@media screen and (min-width: 641px) and (max-width: 960px) {}
+
+@media screen and (min-width: 321px) and (max-width: 640px) {}
+
+@media screen and (max-width: 320px) {}
+
+/* Медиа-запросы для маленьких экранов (Альмира) - конец */

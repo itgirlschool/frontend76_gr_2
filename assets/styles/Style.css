@@ -302,6 +302,55 @@ body {
 /* Конец зоны ответственности Виталии - стили для раздела "Oatmeal" */
 
 /* Начало зоны ответственности Нины */
+.product_container {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 130px;
+  justify-content: space-around;
+}
+
+.product_container_grid {
+  display: grid;
+  grid-template-columns: 550px 550px;
+  grid-template-rows: 33% 33% 33%;
+  gap: 5rem;
+  align-items: center;
+  justify-content: space-around;
+  justify-items: start;
+}
+.product_images_1{
+  grid-row: 1/2;
+  grid-column: 1/2;
+
+}
+
+.product_container_grid_1{
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+
+.product_container_grid_2{
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+
+.product_images_2{
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+.product_images_3{
+  grid-row: 3/4;
+  grid-column: 1/2;
+}
+
+.product_container_grid_3{
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+
 .product__titles {
   text-align: center;
   color: #150101;
@@ -312,8 +361,7 @@ body {
   line-height: normal;
 }
 
-.product__container {
-}
+
 .product__menu__list {
   list-style: none;
   display: flex;
@@ -322,7 +370,8 @@ body {
 }
 
 .product__menu__list__item {
-  margin-right: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .product__menu__list__item a {
@@ -349,13 +398,7 @@ body {
   text-decoration: underline;
 }
 
-.product__container-grid {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 33% 33% 33%;
-  align-items: center;
-  justify-content: center;
-}
+
 
 .product_button {
   width: 165px;
@@ -377,6 +420,11 @@ body {
 .product_button:hover {
   background: #8f2146;
 }
+
+.product_info_action{
+
+}
+
 .product_info_action_text {
   color: #000;
   text-align: right;
@@ -398,6 +446,14 @@ body {
   text-decoration-line: line-through;
   opacity: 0.7;
 }
+
+.product_images{
+  max-width: 580px;
+  max-height: 415px;
+
+}
+
+
 /* Конец зоны ответственности Нины */
 
 /* Начало зоны ответственности Диляры */

@@ -105,7 +105,8 @@ body {
   outline-style: none;
 }
 
-.header .button_1 {
+.header
+.button_1 {
   cursor: pointer;
   margin-left: auto;
 }
@@ -395,28 +396,28 @@ body {
 /* Конец зоны ответственности Нины */
 
 /* Начало зоны ответственности Диляры */
+.order {
+    max-width: 100%;
+    background-color: #f8edf0;
+}
+
 .container-order {
-  max-width: 1600px;
-  height: 639px;
-  background-color: #f8edf0;
-  flex-shrink: 0;
+    position: relative;
+    height: 639px;
+    flex-shrink: 0;
 }
 
 .order-info {
-  position: relative;
   margin-left: 659px;
-  top: 90px;
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
 }
 
-.order-image {
+.container-order img {
   position: absolute;
   left: 220px;
-  margin-top: 59px;
-}
-
-.order-image img {
-  width: 305px;
-  height: 627px;
+  top: 56px;
 }
 
 .order-info_title {
@@ -485,10 +486,11 @@ body {
 
 .download-items {
   display: flex;
+  flex-direction: row;
 }
 
 .download-items__item-one {
-  margin-left: -14px;
+
 }
 
 /* Конец зоны ответственности Диляры */

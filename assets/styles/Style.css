@@ -83,7 +83,6 @@ body {
 
 .menu_list_item {
   margin-right: 40px;
-  width: calc(100%+10px);
 }
 
 .menu_list_item a {

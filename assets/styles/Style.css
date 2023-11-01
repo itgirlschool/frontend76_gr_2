@@ -605,6 +605,19 @@ body {
   align-self: stretch;
 }
 
+.question__input {
+  outline: none;
+  padding: 29px 150px 29px 30px;
+  display: block;
+  width: 100%;
+  background: #fafafa;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: 0F0000;
+  font-size: 14px;
+}
+
 .submit__btn {
   position: absolute;
   top: 0;

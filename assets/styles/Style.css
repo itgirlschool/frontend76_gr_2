@@ -398,6 +398,9 @@ body {
   opacity: 1;
   outline-style: none;
   text-decoration: underline;
+  text-decoration-color: #D64374;
+  text-decoration-style: solid;
+  text-decoration-thickness: 3px;
 }
 
 

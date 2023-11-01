@@ -591,8 +591,28 @@ body {
 }
 
 .submit__btn {
-  color: rgba(250, 250, 250, 1);
-  background-color: rgba(214, 67, 116, 1);
+  position: absolute;
+  top: 0;
+  left: 79%;
+  z-index: 9;
+  outline: none;
+  border: none;
+  display: inline-block;
+  background: #d23166;
+  color: #fafafa;
+  padding: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 134px;
+  height: 74px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-style: 500;
+  text-align: center;
+}
+
+.submit__btn:hover {
+  background: #8f2146;
 }
 /* Конец зоны ответственности Ольги */
 

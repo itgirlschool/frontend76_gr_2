@@ -62,16 +62,12 @@ body {
   background-color: #fbf0f4;
 }
 
-.header-wrapper {
-  max-width: 1125px;
-  height: 79px;
-  margin-left: 245px;
-  display: flex;
-  align-items: center;
-}
-
 .menu {
   margin-left: 266px;
+}
+
+#menu__toggle {
+    opacity: 0;
 }
 
 .menu_list {
@@ -815,6 +811,11 @@ body {
 
 /* Медиа-запросы для маленьких экранов (Альмира) - начало */
 @media screen and (min-width: 641px) and (max-width: 960px) {
+    .body-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
     .container {
         width: 100vw;
         margin: 0;
@@ -854,6 +855,11 @@ body {
 }
 
 @media screen and (min-width: 321px) and (max-width: 640px) {
+    .body-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
     .container {
         width: 100%;
         margin: 0;
@@ -916,7 +922,6 @@ body {
     .body-container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: ;
     }
     .container {
         width: 100%;
@@ -928,7 +933,7 @@ body {
       }
 
     .menu {
-        margin-left: 10%;
+        margin-left: 5%;
       }
 
       .header-wrapper {
@@ -938,6 +943,113 @@ body {
         align-items: center;
       }
 
+      /* Стили для бургер-меню - начало*/
+      #menu__toggle {
+        opacity: 0;
+    }
+
+    #menu__toggle:checked~.menu__btn>span {
+        transform: rotate(45deg);
+    }
+
+    #menu__toggle:checked~.menu__btn>span::before {
+        top: 0;
+        transform: rotate(0);
+    }
+
+    #menu__toggle:checked~.menu__btn>span::after {
+        top: 0;
+        transform: rotate(90deg);
+    }
+
+    #menu__toggle:checked~.menu_list {
+        visibility: visible;
+        left: 0;
+    }
+
+    .menu__btn {
+        background-color: rgba(210, 49, 102, 1);
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 50px;
+        left: 20px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .menu__btn>span,
+    .menu__btn>span::before,
+    .menu__btn>span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: rgba(250, 250, 250, 1);
+        transition-duration: 0, 5s;
+    }
+
+    .menu__btn>span::before {
+        content: '';
+        top: -8px;
+    }
+
+    .menu__btn>span::after {
+        content: '';
+        top: 8px;
+    }
+
+    .menu_list {
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        left: 100%;
+        width: 80px;
+        height: 100%;
+        margin: 0;
+        padding: 100px 0;
+        list-style: none;
+        background-color: #ECEFF1;
+        transition-duration: .25s;
+    }
+
+    .menu_list_item {
+        display: block;
+        color: #150101;
+        padding: 12px 24px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        text-decoration: none;
+        cursor: pointer;
+        opacity: 0.6;
+        transition-duration: .25s;
+    }
+
+    .menu_list_item:hover {
+        color: #d23166;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        opacity: 1;
+        outline-style: none;
+        transform: scale(1.1);
+    }
+    /* Стили для бургер-меню - конец*/
+
+      .delivery_info_item_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: center;
+        padding: 5px;
+        margin: 0px;
+    }
+
+    .header-wrapper > .button1,
     .main-content_image_ice-cream,
     .main-content_image_splash,
     .oval,
@@ -961,11 +1073,19 @@ body {
     .container {
         max-width: 900px;
         margin: 0 auto;
-      }
+    }
 
-      .main {
+    .main {
         height: 562px;
-      }
+    }
+
+    .header-wrapper {
+        max-width: 1125px;
+        height: 79px;
+        margin-left: 245px;
+        display: flex;
+        align-items: center;
+    }
 }
 @media screen and (min-width: 1281px) and (max-width: 1599px) {
     .container {
@@ -975,6 +1095,14 @@ body {
 
       .main {
         height: 712px;
+      }
+
+      .header-wrapper {
+        max-width: 1125px;
+        height: 79px;
+        margin-left: 245px;
+        display: flex;
+        align-items: center;
       }
 }
 @media screen and (min-width: 1600px) and (max-width: 1920px) {
@@ -986,6 +1114,14 @@ body {
       .main {
         height: 862px;
       }
+
+      .header-wrapper {
+        max-width: 1125px;
+        height: 79px;
+        margin-left: 245px;
+        display: flex;
+        align-items: center;
+      }
 }
 @media screen and (min-width: 1921px) {
     .container {
@@ -995,6 +1131,14 @@ body {
 
       .main {
         height: 1102px;
+      }
+
+      .header-wrapper {
+        max-width: 1125px;
+        height: 79px;
+        margin-left: 245px;
+        display: flex;
+        align-items: center;
       }
 }
 

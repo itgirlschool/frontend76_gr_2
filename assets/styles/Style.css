@@ -823,7 +823,6 @@ body {
 @media screen and (max-width: 1599px) {{}}
 
 @media screen and (min-width: 641px) and (max-width: 960px) {
-    /* Секцию с отзывами удалить */
     .container {
         width: 100%;
         margin: 0;
@@ -843,6 +842,10 @@ body {
         display: none;
     }
 
+    .products_feedback {
+        display: none;
+    }
+
     .order {}
 
     .order-info_small-text,
@@ -855,7 +858,6 @@ body {
 }
 
 @media screen and (min-width: 321px) and (max-width: 640px) {
-    /* Секцию с отзывами удалить */
     .container {
         width: 100%;
         margin: 0;
@@ -892,7 +894,11 @@ body {
     .delivery_info_text {
         display: none;
     }
-        
+    
+    .products_feedback {
+        display: none;
+    }
+
     .order {}
 
     .order-info_small-text,
@@ -907,7 +913,6 @@ body {
 }
 
 @media screen and (max-width: 320px) {
-    /* Секцию с отзывами удалить */
     .container {
         width: 100%;
         margin: 0;
@@ -933,7 +938,11 @@ body {
     .delivery_info_text {
         display: none;
     }
-        
+    
+    .products_feedback {
+        display: none;
+    }
+
     .order {
         display: none;
     }

@@ -59,7 +59,6 @@ body {
 
 /* Начало зоны ответственности Альмиры */
 .main {
-  height: 862px;
   background-color: #fbf0f4;
 }
 
@@ -817,10 +816,14 @@ body {
 /* Медиа-запросы для маленьких экранов (Альмира) - начало */
 @media screen and (min-width: 641px) and (max-width: 960px) {
     .container {
-        width: 100%;
+        width: 100vw;
         margin: 0;
     }
     
+    .main {
+        height: 862px;
+      }
+
     .main {
         width: 100%;
         margin: 0;
@@ -855,6 +858,10 @@ body {
         width: 100%;
         margin: 0;
     }
+
+    .main {
+        height: 862px;
+      }
 
       .header-wrapper {
         max-width: 100%;
@@ -906,10 +913,19 @@ body {
 }
 
 @media screen and (max-width: 320px) {
+    .body-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: ;
+    }
     .container {
         width: 100%;
         margin: 0;
     }
+
+    .main {
+        height: 862px;
+      }
 
     .menu {
         margin-left: 10%;
@@ -924,23 +940,16 @@ body {
 
     .main-content_image_ice-cream,
     .main-content_image_splash,
-    .oval {
-        display: none;
-    }
-
-    .delivery_info_text {
-        display: none;
-    }
-    
-    .products_feedback {
-        display: none;
-    }
-
-    .order {
-        display: none;
-    }
-
-    .question {
+    .oval,
+    .delivery_info_text,
+    .oatmeal,
+    .products_feedback,
+    .order,
+    .question,
+    .first-box__text,
+    .footer__second-box,
+    .footer__third-box,
+    .footer__fourth-box {
         display: none;
     }
 }
@@ -953,11 +962,19 @@ body {
         max-width: 900px;
         margin: 0 auto;
       }
+
+      .main {
+        height: 562px;
+      }
 }
 @media screen and (min-width: 1281px) and (max-width: 1599px) {
     .container {
         max-width: 1200px;
         margin: 0 auto;
+      }
+
+      .main {
+        height: 712px;
       }
 }
 @media screen and (min-width: 1600px) and (max-width: 1920px) {
@@ -965,11 +982,19 @@ body {
         max-width: 1600px;
         margin: 0 auto;
       }
+
+      .main {
+        height: 862px;
+      }
 }
 @media screen and (min-width: 1921px) {
     .container {
         max-width: 1900px;
         margin: 0 auto;
+      }
+
+      .main {
+        height: 1102px;
       }
 }
 

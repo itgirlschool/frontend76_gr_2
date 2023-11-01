@@ -820,8 +820,6 @@ body {
 /* Конец зоны ответственности Виталии - стили для футера */
 
 /* Медиа-запросы для маленьких экранов (Альмира) - начало */
-@media screen and (max-width: 1599px) {{}}
-
 @media screen and (min-width: 641px) and (max-width: 960px) {
     .container {
         width: 100%;
@@ -953,3 +951,11 @@ body {
 }
 
 /* Медиа-запросы для маленьких экранов (Альмира) - конец */
+
+/* Медиа-запросы для больших экранов - начало */
+@media screen and (min-width: 961px) and (max-width: 1280px) {}
+@media screen and (min-width: 1281px) and (max-width: 1599px) {}
+@media screen and (min-width: 1600px) and (max-width: 1920px) {}
+@media screen and (min-width: 1921px) {}
+
+/* Медиа-запросы для больших экранов - начало */

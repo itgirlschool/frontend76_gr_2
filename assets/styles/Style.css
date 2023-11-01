@@ -21,11 +21,6 @@ body {
   color: black;
 }
 
-.container {
-  max-width: 1600px;
-  margin: 0 auto;
-}
-
 /* Коммент Виталии: тут я бы указала, что эти стили для button_1, button_2 подходят для всех кнопок, кроме последних двух, одна в разделе Ольги "Send", вторая в моём разделе футер "Subscibe". Точнее эти стили нам тоже подходят, но нам нужно поменять только размер кнопок, ну и кнопки у нас должны быть не просто обычные, а для формы, это в html нужно написать по-другому, коммент для Ольги и для меня больше:) */
 
 .button_1,
@@ -953,9 +948,29 @@ body {
 /* Медиа-запросы для маленьких экранов (Альмира) - конец */
 
 /* Медиа-запросы для больших экранов - начало */
-@media screen and (min-width: 961px) and (max-width: 1280px) {}
-@media screen and (min-width: 1281px) and (max-width: 1599px) {}
-@media screen and (min-width: 1600px) and (max-width: 1920px) {}
-@media screen and (min-width: 1921px) {}
+@media screen and (min-width: 961px) and (max-width: 1280px) {
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+      }
+}
+@media screen and (min-width: 1281px) and (max-width: 1599px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+}
+@media screen and (min-width: 1600px) and (max-width: 1920px) {
+    .container {
+        max-width: 1600px;
+        margin: 0 auto;
+      }
+}
+@media screen and (min-width: 1921px) {
+    .container {
+        max-width: 1900px;
+        margin: 0 auto;
+      }
+}
 
 /* Медиа-запросы для больших экранов - начало */

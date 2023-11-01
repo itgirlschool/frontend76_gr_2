@@ -590,6 +590,21 @@ body {
   box-sizing: border-box;
 }
 
+.question__content {
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 51.56px;
+  margin-bottom: 40px;
+}
+
+.question__form {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  align-self: stretch;
+}
+
 .submit__btn {
   position: absolute;
   top: 0;

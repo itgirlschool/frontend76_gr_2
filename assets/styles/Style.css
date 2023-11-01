@@ -573,21 +573,21 @@ body {
 /* Конец зоны ответственности Диляры */
 
 /* Начало зоны ответственности Ольги */
-.question__content {
-  text-align: center;
-  font-size: 44px;
-  font-weight: 500;
-  line-height: 51.56px;
-}
-
-.question__form {
+.question .container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.question__input {
-  font-size: 14px;
-  color: rgba(15, 0, 0, 1);
+.question__wrapper {
+  width: 640px;
+  margin-top: 145px;
+  margin-bottom: 145px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 .submit__btn {

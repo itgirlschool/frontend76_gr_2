@@ -469,8 +469,38 @@ body {
   max-height: 415px;
 
 }
+.products_feedback{
+  display: flex;
+  max-width: 1600px;
+  justify-content: space-around;
+  padding: 220px;
+  gap: 3rem;
+}
+.title-1{
+  display: flex;
+}
+.product_info_image{
+  max-width: 564px;
+  max-height: 442px;
+  flex-shrink: 0;
+}
+.portrait{
+  margin-right: 21px;
 
+}
+.portrait-3{
+  width: 37.812px;
+  height: 37.812px;
+  flex-shrink: 0;
+  border-radius: 57.812px;
 
+}
+.portrait-1{
+  width: 37.812px;
+  height: 37.812px;
+  flex-shrink: 0;
+  border-radius: 57.812px;
+}
 /* Конец зоны ответственности Нины */
 
 /* Начало зоны ответственности Диляры */

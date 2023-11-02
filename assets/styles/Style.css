@@ -486,7 +486,7 @@
 .products_feedback {
     display: flex;
     max-width: 1600px;
-    justify-content: space-between;
+    justify-content: center;
     padding: 220px;
     gap: 10rem;
     align-items: center;
@@ -549,7 +549,7 @@
     width: 10.968px;
     height: 10px;
     flex-shrink: 0;
-    margin-left: 12px;
+    margin-left: 5px;
 
 }
 

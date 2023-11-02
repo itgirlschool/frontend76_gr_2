@@ -58,6 +58,7 @@
 /* Общие стили для всей страницы и для общих элементов - конец*/
 
 /* Начало зоны ответственности Альмиры */
+/* Секция Main */
 .main {
     background-color: #fbf0f4;
     height: 862px;
@@ -198,9 +199,7 @@
     z-index: 1;
 }
 
-/* Конец зоны ответственности Альмиры */
-
-/* Начало зоны ответственности Надежды */
+/* Секция Delivery */
 .delivery {
     padding-top: 100px;
     padding-bottom: 100.2px;
@@ -258,7 +257,7 @@
     opacity: 0.6;
 }
 
-/* Конец зоны ответственности Надежды */
+/* Конец зоны ответственности Альмиры */
 
 /* Начало зоны ответственности Виталии - стили для раздела "Oatmeal" */
 
@@ -1086,11 +1085,21 @@
         }
 
         .main {
-            height: 862px;
+            max-width: 100vw;
+            height: 300px;
+        }
+
+        .main-content_info_tagline {
+            font-size: 12px;
         }
 
         .main-content_info_title {
-            font-size: 10px;
+            font-size: 20px;
+        }
+
+        .main-content_info {
+            max-width: 80%;
+            margin: 0 auto;
         }
 
         .menu {
@@ -1125,6 +1134,22 @@
             height: 200px !important;
         }
 
+        .footer__wrapper {
+            height: 72.2px;
+            margin: 10px auto;
+            display: flex;
+            align-content: center;
+        }
+
+        .footer__first-box {
+            margin: 0;
+            padding-top: 15px;
+        }
+
+        .social-icons__title {
+            text-align: center;
+        }
+
         /* Стили для бургер-меню - начало*/
         #menu__toggle {
             opacity: 0;
@@ -1154,12 +1179,12 @@
             display: flex;
             align-items: center;
             position: fixed;
-            top: 50px;
-            left: 20px;
+            top: 30px;
+            left: 220px;
             width: 26px;
             height: 26px;
             cursor: pointer;
-            z-index: 1;
+            z-index: 3;
         }
 
         .menu__btn>span,
@@ -1189,13 +1214,14 @@
             visibility: hidden;
             top: 0;
             left: 100%;
-            width: 80px;
+            width: 80vw;
             height: 100%;
             margin: 0;
             padding: 100px 0;
             list-style: none;
             background-color: #ECEFF1;
             transition-duration: .25s;
+            z-index: 2;
         }
 
         .menu_list_item {
@@ -1220,10 +1246,15 @@
             outline-style: none;
             transform: scale(1.1);
         }
+
+        .main-content {
+            padding-top: 7%;
+            padding-bottom: 7%;
+        }
         /* Стили для бургер-меню - конец*/
 
-        .header-wrapper>.button1, .main-content_image_ice-cream, .main-content_image_splash, .main-content_info_text, .oval, .delivery_info_text, .oatmeal, .products_feedback, .order, .question, .first-box__text, .footer__second-box, .footer__third-box, .footer__fourth-box {
-            display: none !important;
+        .header .button_1, .main-content_image_ice-cream, .main-content_image_splash, .main-content_info_text, .oval, .delivery_info_text, .oatmeal, .products_feedback, .order, .question, .first-box__text, .footer__logo, .footer__second-box, .footer__third-box, .footer__fourth-box {
+            display: none;
         }
     }
 

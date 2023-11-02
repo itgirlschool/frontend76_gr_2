@@ -76,7 +76,7 @@
 }
 
 #menu__toggle {
-    opacity: 1;
+    opacity: 0;
     position: absolute;
     top: 15%;
     right: 26%;
@@ -681,6 +681,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .question__wrapper {
@@ -928,7 +929,58 @@
 
 /* Конец зоны ответственности Виталии - стили для футера */
 
-/* Медиа-запросы для маленьких экранов (Альмира) - начало */
+/* Медиа-запросы для больших экранов - начало */
+@media screen and (min-width: 1921px) {
+    .container {
+        max-width: 1900px;
+        margin: 0 auto;
+    }
+
+    .main {
+        height: 1102px;
+    }
+
+    .header-wrapper {
+        height: 110px;
+    }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1920px) {}
+
+@media screen and (min-width: 1281px) and (max-width: 1599px) {
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .main {
+            height: 712px;
+        }
+
+        .header-wrapper {
+            max-width: 900px;
+            height: 79px;
+        }
+    }
+
+    @media screen and (min-width: 961px) and (max-width: 1280px) {
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .main {
+            height: 562px;
+        }
+
+        .header-wrapper {
+            max-width: 700px;
+            height: 79px;
+        }
+    }
+    /* Медиа-запросы для больших экранов - начало */
+
+    /* Медиа-запросы для маленьких экранов (Альмира) - начало */
 @media screen and (min-width: 641px) and (max-width: 960px) {
     .body-container {
         display: grid;
@@ -1020,6 +1072,7 @@
     }
 
     .order {}
+}
 
     @media screen and (max-width: 320px) {
         .body-container {
@@ -1066,6 +1119,10 @@
             align-content: center;
             padding: 5px;
             margin: 0px;
+        }
+
+        .container-order {
+            height: 200px !important;
         }
 
         /* Стили для бургер-меню - начало*/
@@ -1165,74 +1222,9 @@
         }
         /* Стили для бургер-меню - конец*/
 
-        .header-wrapper>.button1,
-        .main-content_image_ice-cream,
-        .main-content_image_splash,
-        .main-content_info_text,
-        .oval,
-        .delivery_info_text,
-        .oatmeal,
-        .products_feedback,
-        .order,
-        .question,
-        .first-box__text,
-        .footer__second-box,
-        .footer__third-box,
-        .footer__fourth-box {
-            display: none;
+        .header-wrapper>.button1, .main-content_image_ice-cream, .main-content_image_splash, .main-content_info_text, .oval, .delivery_info_text, .oatmeal, .products_feedback, .order, .question, .first-box__text, .footer__second-box, .footer__third-box, .footer__fourth-box {
+            display: none !important;
         }
     }
 
     /* Медиа-запросы для маленьких экранов (Альмира) - конец */
-
-    /* Медиа-запросы для больших экранов - начало */
-    @media screen and (min-width: 961px) and (max-width: 1280px) {
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
-        .main {
-            height: 562px;
-        }
-
-        .header-wrapper {
-            max-width: 700px;
-            height: 79px;
-        }
-    }
-
-    @media screen and (min-width: 1281px) and (max-width: 1599px) {
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .main {
-            height: 712px;
-        }
-
-        .header-wrapper {
-            max-width: 900px;
-            height: 79px;
-        }
-    }
-
-    @media screen and (min-width: 1600px) and (max-width: 1920px) {}
-
-    @media screen and (min-width: 1921px) {
-        .container {
-            max-width: 1900px;
-            margin: 0 auto;
-        }
-
-        .main {
-            height: 1102px;
-        }
-
-        .header-wrapper {
-            height: 110px;
-        }
-    }
-
-    /* Медиа-запросы для больших экранов - начало */

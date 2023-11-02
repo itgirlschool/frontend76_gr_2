@@ -471,9 +471,10 @@ body {
 .products_feedback{
   display: flex;
   max-width: 1600px;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 220px;
-  gap: 3rem;
+  gap: 10rem;
+  align-items: center;
 }
 
 .product_info_image{
@@ -481,7 +482,19 @@ body {
   max-height: 442px;
   flex-shrink: 0;
 }
+.products_feedback_text_review{
+width: 322px;
+height: 53px;
+flex-shrink: 0;
+color: #000;
 
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+opacity: 0.7;
+}
 .title-1{
   
 }
@@ -556,6 +569,7 @@ body {
   border-radius: 57.812px;
   margin-right: 23px;
 }
+
 /* Конец зоны ответственности Нины */
 
 /* Начало зоны ответственности Диляры */

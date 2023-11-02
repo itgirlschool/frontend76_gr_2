@@ -483,18 +483,18 @@ body {
   flex-shrink: 0;
 }
 .products_feedback_text_review{
-width: 322px;
-height: 53px;
-flex-shrink: 0;
-color: #000;
-
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
-opacity: 0.7;
+  width: 322px;
+  height: 53px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.7;
 }
+
 .title-1{
   
 }

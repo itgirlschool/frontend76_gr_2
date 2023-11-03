@@ -976,7 +976,7 @@
     text-align: center;
   }
   .menu {
-    margin-right: 20px;
+    margin-right: 4%;
     margin-left: 6%;
   }
 
@@ -985,7 +985,7 @@
   }
 
   .menu_list_item a {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .menu_list_item:last-child {
@@ -1310,6 +1310,7 @@
     height: 90px;
     display: flex;
     align-items: center;
+    margin-left: 10%;
   }
 
   .menu {

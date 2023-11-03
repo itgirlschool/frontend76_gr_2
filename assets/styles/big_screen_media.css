@@ -1677,8 +1677,151 @@
 
 }
 
+@media screen and (min-width: 1921px) {
 
-@media screen and (min-width: 1921px) {}
+/* Секция Main */
+
+.main {
+  height: 862px;
+  background-color: #fbf0f4;
+}
+
+.header .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-wrapper {
+  max-width: 1125px;
+  height: 79px;
+  margin-left: 0;
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  margin-left: 370px;
+}
+
+#menu__toggle {
+  display: none;
+}
+
+.menu_list {
+  list-style: none;
+  display: flex;
+  padding-inline-start: 0;
+}
+
+.menu_list_item {
+  margin-right: 40px;
+}
+
+.menu_list_item a {
+  color: #150101;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 1ms;
+}
+
+.menu_list_item a:hover {
+  color: #d23166;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  opacity: 1;
+  outline-style: none;
+  transform: scale(1.1);
+}
+
+.header .button_1 {
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.main-content {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.main-content .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content_wrapper {
+  display: grid;
+  max-width: 1100px;
+  grid-template-columns: 60% 40%;
+}
+
+.main-content_info {
+  max-width: 100%;
+  margin-left: 0;
+  grid-column: 1/2;
+padding-top: 196px;
+padding-bottom: 213px;
+}
+
+.main-content_image {
+  grid-column: 2/3;
+}
+
+.main-content_info_tagline {
+  display: inline-block;
+  color: #0f0101;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1.4px;
+  line-height: 16px;
+  font-style: normal;
+  margin-bottom: 6px;
+}
+
+.main-content_info_title {
+  color: #0f0101;
+  font-family: "Fredoka One", sans-serif;
+  font-size: 57.33px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 120.5%;
+  margin: 0 0 35px 0;
+  opacity: 0.9;
+}
+
+.main-content_info_title_ice-cream {
+  color: #d23166;
+}
+
+.main-content_info_text {
+  max-width: 523px;
+  color: #0f0101;
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 150%;
+  opacity: 0.6;
+  margin-bottom: 50px;
+}
+
+.main-content_image_ice-cream {
+  padding-top: 60px;
+  width: 100%;
+  min-width: 500px;
+}
+
+/* Конец секции Main */
+
+
+}
+
 
 
 

@@ -962,14 +962,23 @@
     margin-bottom: 5px;
   }
 
-  .header-wrapper {
-    max-width: 95%;
-    height: 100px;
-    margin-left: 10%;
-    margin-top: 10px;
-    justify-items: center;
+  .header .container {
+    display: flex;
+    justify-content: center;
   }
 
+  .header-wrapper {
+    max-width: 95%;
+    width: 80%;
+    height: 100px;
+    justify-content: space-between;
+    justify-items: center;
+    margin-left: 0;
+  }
+
+.menu_list .menu_list_item {
+  text-align: center;
+}
   .menu {
     margin-right: 20px;
     margin-left: 6%;

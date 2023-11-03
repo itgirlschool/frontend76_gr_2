@@ -937,51 +937,13 @@
 
 /* Медиа-запросы для больших экранов - начало */
 @media screen and (min-width: 1921px) {
-  .container {
-    max-width: 1900px;
-    margin: 0 auto;
-  }
 
-  .main {
-    height: ;
-  }
-
-  .header-wrapper {
-    height: 110px;
-  }
-}
 
 @media screen and (min-width: 1281px) and (max-width: 1599px) {
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
 
-  .main {
-    height: 712px;
-  }
-
-  .header-wrapper {
-    max-width: 900px;
-    height: 79px;
-  }
-}
 
 @media screen and (min-width: 961px) and (max-width: 1280px) {
-  .container {
-    max-width: 900px;
-    margin: 0 auto;
-  }
 
-  .main {
-    height: 562px;
-  }
-
-  .header-wrapper {
-    max-width: 700px;
-    height: 79px;
-  }
-}
 
 /* Медиа-запросы для больших экранов - начало */
 

@@ -1116,6 +1116,7 @@
     align-items: center;
     justify-content: space-around;
     justify-items: start;
+    margin: 0 20px;
   }
 
   .product_info_title {
@@ -1138,9 +1139,41 @@
   }
 
   .order {
+    height: 170px;
   }
 
-  .question {
+  .order-info {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 70px 50px;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 3%;
+  }
+
+  .order-info_title {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .download-items {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .download-items__item-one {
+    width: 100px;
+    margin: 0;
+  }
+
+  .download-items__item-two {
+    width: 90px;
+    margin: 0;
   }
 
   .footer__wrapper {
@@ -1165,7 +1198,13 @@
   .order-info_small-text,
   .products_feedback,
   .how-to-order,
-  .container-order > img {
+  .container-order > img,
+  .question,
+  .first-box__text,
+  .footer__logo,
+  .footer__second-box,
+  .footer__third-box,
+  .footer__fourth-box {
     display: none;
   }
 }

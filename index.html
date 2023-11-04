@@ -1,50 +1,462 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Polar</title>
-    <link
-      rel="shortcut icon"
-      href="assets\images\shortcut_icon.png"
-      type="image/png"
-    />
-    <link rel="stylesheet" href="assets/styles/Normalize.css" />
-    <link rel="stylesheet" href="assets/styles/Style.css" />
-    <!-- Добавление шрифтов Roboto 400 и 500 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700;800&family=Roboto:wght@400;500&family=Sen:wght@400;500;600;700;800&family=Sofia+Sans:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Добавление шрифтов Hind Madurai 400, 600 и 700 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;600;700&family=Open+Sans:wght@500;600;700;800&family=Sen:wght@400;500;600;700;800&family=Sofia+Sans:wght@300&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polar</title>
+  <link rel="shortcut icon" href="assets\images\shortcut_icon.png" type="image/png" />
+  <link rel="stylesheet" href="assets/styles/Normalize.css" />
+  <link rel="stylesheet" href="assets/styles/Style.css" />
+  <link rel="stylesheet" href="./assets/styles/big_screen_media.css">
+  <!-- Добавление шрифтов Roboto 400 и 500 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700;800&family=Roboto:wght@400;500&family=Sen:wght@400;500;600;700;800&family=Sofia+Sans:wght@300&display=swap"
+    rel="stylesheet" />
+  <!-- Добавление шрифтов Hind Madurai 400, 600 и 700 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;600;700&family=Open+Sans:wght@500;600;700;800&family=Sen:wght@400;500;600;700;800&family=Sofia+Sans:wght@300&display=swap"
+    rel="stylesheet" />
+  <!-- Добавление шрифта Fredoka 400 -->
+  <link href="https://db.onlinewebfonts.com/c/5165c0facbfede7afe6c9ef3fd635f11?family=Fredoka+One" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="body-container">
+    <!-- Секция Альмиры -->
     <section class="main">
-      <header></header>
-      <section class="hero"></section>
+      <header class="header">
+        <div class="container">
+          <div class="header-wrapper">
+            <div class="logo">
+              <img src="assets\images\shortcut_icon.png" alt="Logo" />
+            </div>
+            <nav class="menu hamburger-menu">
+
+              <input id="menu__toggle" type="checkbox" />
+              <label class="menu__btn" for="menu__toggle">
+                <span></span>
+              </label>
+
+              <ul class="menu_list">
+                <li class="menu_list_item">
+                  <a href="#">Home</a>
+                </li>
+                <li class="menu_list_item">
+                  <a href="#">Product</a>
+                </li>
+                <li class="menu_list_item">
+                  <a href="#">Pricing</a>
+                </li>
+                <li class="menu_list_item">
+                  <a href="#">Testimonials</a>
+                </li>
+                <li class="menu_list_item">
+                  <a href="#">Contact Us</a>
+                </li>
+              </ul>
+            </nav>
+            <button class="button_1">Buy Now</button>
+          </div>
+        </div>
+      </header>
+
+      <section class="main-content">
+        <div class="container">
+          <div class="main-content_wrapper">
+            <div class="main-content_info">
+              <span class="main-content_info_tagline">Sweet fun, full of milk.</span>
+              <h1 class="main-content_info_title">
+                Feel inside cold with our delicious
+                <span class="main-content_info_title_ice-cream">ice-cream.</span>
+              </h1>
+              <p class="main-content_info_text">
+                Some food has looked so awful that it's looked like something that
+                the dog's brought home, yet after one mouthful I've been left
+                eating my thoughts, my words.
+              </p>
+              <div class="main-content_info_action">
+                <button class="button_1">Buy Now</button>
+              </div>
+            </div>
+            <div class="main-content_image">
+              <img class="main-content_image_ice-cream" src="./assets/images/icecream_united_image.png"
+                alt="Big ice-cream" />
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
 
-    <section class="delivery"></section>
+    <section class="delivery">
+      <div class="container">
+        <div class="delivery_info">
+          <div class="delivery_info_item_wrapper">
+            <div class="delivery_info_item">
+              <img src="assets\images\delivery_img_truck.png" alt="Truck" class="delivery_info_image" />
+              <div class="delivery_info_title">Free Shipping</div>
+              <div class="delivery_info_text">
+                Last Chance! Free shipping on all orders ends today.
+              </div>
+            </div>
+          </div>
 
-    <section class="oatmea"></section>
+          <div class="delivery_info_item_wrapper">
+            <div class="delivery_info_item">
+              <img src="assets\images\delivery_img_cup.png" alt="Cup" class="delivery_info_image" />
+              <div class="delivery_info_title">Quick Packaging</div>
+              <div class="delivery_info_text">
+                Last Chance! Free shipping on all orders ends today.
+              </div>
+            </div>
+          </div>
 
-    <section class="products"></section>
+          <div class="delivery_info_item_wrapper">
+            <div class="delivery_info_item">
+              <img src="assets\images\delivery_img_money.png" alt="Money" class="delivery_info_image" />
+              <div class="delivery_info_title">100% Money Back</div>
+              <div class="delivery_info_text">
+                Last Chance! Free shipping on all orders ends today.
+              </div>
+            </div>
+          </div>
 
-    <section class="order"></section>
+          <div class="delivery_info_item_wrapper" id="delivery_info_item_wrapper_last">
+            <div class="delivery_info_item">
+              <img src="assets\images\delivery_img_cart.png" alt="Cart" class="delivery_info_image"
+                id="delivery_info_image_last" />
+              <div class="delivery_info_title" id="delivery_info_title_last">
+                Fast Delivery
+              </div>
+              <div class="delivery_info_text">
+                Last Chance! Free shipping on all orders ends today.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Конец секции Альмиры -->
 
-    <section class="question"></section>
+    <!-- Начало секции Виталии -->
+    <section class="oatmeal">
+      <div class="container container-outmeal">
+        <div class="outmeal__text-section">
+          <h2 class="outmeal__title">Brown Sugar Oatmeal</h2>
+          <p class="outmeal__text">
+            Together with McDonald’s, Burger King has grown to become synonymous
+            with burgers in the US. Together with McDonald’s, Burger King has
+            grown to become synonymous.
+          </p>
+          <button class="outmeal__button button_2">See Details</button>
+        </div>
+        <div class="outmeal__image-section">
+          <img src="./assets/images/outmeal_image.png" alt="Ice cream picture" />
+        </div>
+      </div>
+    </section>
+    <!-- Конец секции Виталии -->
 
-    <footer class="footer">
-      <h1></h1>
-    </footer>
-  </body>
+    <!-- Начало секции Нины -->
+
+    <section class="products">
+
+      <div class="product__title">
+        <h1 class="product__titles">Our product</h1>
+      </div>
+      <div class="product_container">
+        <!-- Этот тег создала Альмира для отображения в мобильной версии страницы в качестве выпадающего списк продуктов -->
+        <select class="product_selector">
+          <option value="1" checked="checked">ICE CREAM</option>
+          <option value="2">CAYENNE CHOCOLATE</option>
+          <option value="3">CAKE BATTER</option>
+          <option value="3">CANDY CANE</option>
+          <option value="4">PLATTERS</option>
+          <option value="5">DESSERT</option>
+        </select>
+
+        <div class="product__container">
+          <nav class="product__menu">
+            <ul class="product__menu__list">
+              <li class="product__menu__list__item"><a href="#">ICE CREAM</a></li>
+              <li class="product__menu__list__item">
+                <a href="#">CAYENNE CHOCOLATE</a>
+              </li>
+              <li class="product__menu__list__item">
+                <a href="#">CAKE BATTER</a>
+              </li>
+              <li class="product__menu__list__item"><a href="">CANDY CANE</a></li>
+              <li class="product__menu__list__item"><a href="#">PLATTERS</a></li>
+              <li class="product__menu__list__item"><a href="#">DESSERT</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="product_container_grid">
+
+          <div class="product_images_1">
+            <img src="./assets/images/products_brown_bread.png" alt="Ice" class="product_info_image" />
+          </div>
+          <div class="product_container_grid_1">
+            <h2 class="product_info_title">Brown bread</h2>
+            <p class="product_info_text">
+              Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au
+              Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+              pioneer in the healthy fast food scene.
+            </p>
+            <div class="product_info_action">
+              <p class="product_info_action_text">
+                $19.55<span class="product_info_action_number">$22.55</span>
+              </p>
+              <button class="product_button">Buy Now</button>
+            </div>
+          </div>
+
+          <div class="product_container_grid_2">
+            <h2 class="product_info_title">Cayenne chocolate</h2>
+            <p class="product_info_text">
+              Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au
+              Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+              pioneer in the healthy fast food scene.
+            </p>
+            <div class="product_info_action">
+              <p class="product_info_action_text2">
+                $19.55<span class="product_info_action_number">$22.55</span>
+              </p>
+              <button class="product_button">Buy Now</button>
+            </div>
+          </div>
+
+          <div class="product_images_2">
+            <img src="./assets/images/products_cayenne_chocolate.png" alt="Ice" class="products_info_image" />
+          </div>
+
+          <div class="product_images_3">
+            <img src="./assets/images/products_sweet_corn.png" alt="Ice" class="products_info_image" />
+          </div>
+
+          <div class="product_container_grid_3">
+            <h2 class="product_info_title">Sweet corn</h2>
+            <p class="product_info_text">
+              Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au
+              Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+              pioneer in the healthy fast food scene.
+            </p>
+            <div class="product_info_action">
+              <p class="product_info_action_text">
+                $19.55<span class="product_info_action_number">$22.55</span>
+              </p>
+              <button class="product_button">Buy Now</button>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+  </div>
+  </section>
+
+  <div class="container container-feedback">
+    <div class="products_feedback">
+      <div class="products_feedback_text">
+
+        <div class="title-1">
+          <div class="name">
+            <img src="./assets/images/portrait.svg" alt="" class="portrait">
+            <div>
+              <p class="name_surname">Adele A. McNeill</p>
+              <p class="subname">AMIRICAN</p>
+            </div>
+          </div>
+
+          <p class="products_feedback_text_review"><img src="./assets/images/quote-2.svg" alt="quote"
+              class="quote-1">Thanks a lot for the prompt service. Really appreciate. Excellence taste in Every Bite.Add
+            a
+            joy of best Taste. Foodie Moments.<span class="quote-2"><img src="./assets/images/quote-1.svg" alt="quote"
+                class="quote-2"></span></p>
+        </div>
+
+        <div>
+          <img src="./assets/images/left-arrow.svg" class="tag">
+          <img src="./assets/images/portrait-1.png" alt="a man" class="portrait-1">
+          <img src="./assets/images/portrait-3.svg" alt="a girl" class="portrait-2">
+          <img src="./assets/images/portrait.svg" alt="a girl" class="portrait-3">
+          <img src="./assets/images/right-arrow.svg" class="tag">
+        </div>
+
+      </div>
+
+      <div class="product_feedback_images_">
+        <img src="./assets/images/products_ice_balls.png" alt="Ice" class="products_info_image" />
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+
+  <!-- Конец секции Нины -->
+
+  <!-- Начало секции Диляры -->
+  <section class="order">
+    <div class="container container-order">
+      <div class="order_wrapper">
+        <div class="order-image">
+          <img src="assets/images/Phone.png" alt="ice-cream-screenshot">
+        </div>
+        <div class="order-info">
+          <div class="order-info_text">
+            <h1 class="order-info_title">Simple Way To Order Your Food</h1>
+            <p class="order-info_small-text">Some food has looked so awful that it's looked like
+              something that
+              the<br />dog's brought home, yet
+              after
+              one
+              mouthful I've been left eating my<br />thoughts.</p>
+          </div>
+          <nav class="how-to-order">
+            <ul class="steps-list">
+              <li class="steps"><img class="icons-order item1" src="assets/images/order_icon_1.svg">
+                Select Your
+                Food</li>
+              <li class="steps"><img class="icons-order item2" src="assets/images/order_icon_2.svg">Add To Cart</li>
+              <li class="steps"><img class="icons-order item3" src="assets/images/order_icon_3.svg">Order Your Food</li>
+            </ul>
+          </nav>
+          <div class="download-items">
+            <img src="assets/images/GooglePlay.svg" class="download-items__item-one" />
+            <img src="assets/images/AppStore.svg" class="download-items__item-two" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Конец секции Диляры -->
+
+  <!-- Начало секции Ольги -->
+  <section class="question">
+    <div class="container">
+      <div class="question__wrapper">
+        <h1 class="question__content">
+          Have Question in Mind? <br />
+          Let us help you
+        </h1>
+        <form action="" class="question__form">
+          <input type="text" placeholder="Enter your question" class="question__input" />
+          <input type="submit" value="Send" class="submit__btn" />
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- Конец секции Ольги -->
+
+  <!-- Начало секции Виталии -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__first-box">
+          <img src="./assets/images/footer__logo.svg" alt="Logo" class="footer__logo" />
+          <p class="first-box__text footer__text">
+            Some food has looked so awful that it's looked like something that
+            the dog's brought home.
+          </p>
+          <div class="social-icons first-box__social-icons">
+            <p class="social-icons__title footer__text_bold">Follow us</p>
+            <ul class="social-icons__list footer__list">
+              <li class="social-icons__item">
+                <a href="" class="social-icons__link footer__link"><img src="./assets/icons/facebook.svg" alt="Facebook"
+                    class="social-icons__icon" /></a>
+              </li>
+              <li class="social-icons__item">
+                <a href="" class="social-icons__link footer__link"><img src="./assets/icons/twitter.svg" alt="Twitter"
+                    class="social-icons__icon" /></a>
+              </li>
+              <li class="social-icons__item">
+                <a href="" class="social-icons__link footer__link"><img src="./assets/icons/instagram.svg"
+                    alt="Instagram" class="social-icons__icon" /></a>
+              </li>
+              <li class="social-icons__item">
+                <a href="" class="social-icons__link footer__link"><img src="./assets/icons/linkedin.svg" alt="LinkedIn"
+                    class="social-icons__icon" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <nav class="footer__second-box footer-menu__column-one">
+          <ul class="footer-menu__list-one footer__list">
+            <li class="footer-menu__item">
+              <a href="" class="footer-menu__link footer__link footer__text">Home</a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="" class="footer-menu__link footer__link footer__text">Product</a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="" class="footer-menu__link footer__link footer__text">Blog</a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="" class="footer-menu__link footer__link footer__text">Pricing</a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="" class="footer-menu__link footer__link footer__text">Testimonials</a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="" class="footer-menu__link footer__link footer__text">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__third-box footer-menu__column-two">
+          <ul class="footer-menu__list-two footer__list">
+            <li class="footer-menu__item">
+              <a href="" class="footer-menu__link footer__link footer__text">Delivery Information</a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="" class="footer-menu__link footer__link footer__text">Privacy Policy</a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="" class="footer-menu__link footer__link footer__text">Terms & Conditions</a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="" class="footer-menu__link footer__link footer__text">Search Terms</a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="" class="footer-menu__link footer__link footer__text">Order & Return</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__fourth-box">
+          <p class="fourth-box__title footer__text footer__text_bold">
+            Newsletter
+          </p>
+          <form action="" class="footer__form">
+            <input type="email" placeholder="Your Email" class="footer__input" />
+            <button type="submit" class="footer__submit-button">
+              Subscribe
+            </button>
+          </form>
+          <ul class="pay-icons__list footer__list">
+            <li class="pay-icons__item">
+              <a href="" class="pay-icons__link footer__link"><img src="./assets/icons/paypal.svg" alt="PayPal"
+                  class="pay-icons__icon" /></a>
+            </li>
+            <li class="pay-icons__item">
+              <a href="" class="pay-icons__link footer__link"><img src="./assets/icons/mastercard.svg" alt="Mastercard"
+                  class="pay-icons__icon" /></a>
+            </li>
+            <li class="pay-icons__item">
+              <a href="" class="pay-icons__link footer__link"><img src="./assets/icons/visa.svg" alt="Visa"
+                  class="pay-icons__icon" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Конец секции Виталии -->
+  </div>
+</body>
+
 </html>

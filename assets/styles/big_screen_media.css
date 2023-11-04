@@ -1,4 +1,7 @@
-/* Медиа-запросы для больших экранов - начало */
+/******** Медиа-запросы для больших экранов - начало *********/
+
+
+/**********************   Медиа для 1281-1920px *********************/
 
 @media screen and (min-width: 1281px) and (max-width: 1920px) {
     .body-container {
@@ -64,14 +67,16 @@
 
   .header-wrapper {
     max-width: 1125px;
+    width: 80%;
     height: 79px;
     margin-left: 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
 
   .menu {
-    margin-left: 370px;
+    margin-left: 150px;
   }
 
   #menu__toggle {
@@ -111,7 +116,7 @@
 
   .header .button_1 {
     cursor: pointer;
-    margin-left: auto;
+    margin-left: 0;
   }
 
   .main-content {
@@ -1677,6 +1682,8 @@
 
 }
 
+/*******************  Медиазапросы для 1921+  ********************/
+
 @media screen and (min-width: 1921px) {
 
 /* Секция Main */
@@ -1694,14 +1701,16 @@
 
 .header-wrapper {
   max-width: 1125px;
+  width: 80%;
   height: 79px;
   margin-left: 0;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .menu {
-  margin-left: 370px;
+  margin-left: 150px;
 }
 
 #menu__toggle {
@@ -1741,7 +1750,7 @@
 
 .header .button_1 {
   cursor: pointer;
-  margin-left: auto;
+  margin-left: 0;
 }
 
 .main-content {

@@ -519,12 +519,19 @@
   display: flex;
 }
 
+.name_surname,
 .subname {
+  margin-block-start: 0.5em;
+  margin-block-end: 0;
+}
+
+.subname {
+  display: flex;
+  justify-content: flex-start;
   width: 77px;
   height: 15px;
   flex-shrink: 0;
   color: #000;
-  text-align: center;
   font-family: Roboto;
   font-size: 12px;
   font-style: normal;
@@ -548,6 +555,10 @@
   margin-left: 12px;
 }
 
+.tag {
+  margin-bottom: 11px;
+}
+
 .portrait {
   margin-right: 21px;
   width: 59px;
@@ -568,6 +579,8 @@
   margin-left: 23px;
   margin-right: 23px;
   margin-top: 30px;
+  margin-bottom: -10px;
+  transition: 1s;
 }
 
 .portrait-3 {
@@ -576,6 +589,10 @@
   flex-shrink: 0;
   border-radius: 57.812px;
   margin-right: 23px;
+}
+
+.portrait-2:hover {
+  transform: scale(1.2);
 }
 
 /* Конец зоны ответственности Нины */
